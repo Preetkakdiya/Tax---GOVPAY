@@ -1,0 +1,27 @@
+# GovPay+ MERN Project Requirements
+
+This is a Node.js project. Dependencies are natively managed via `package.json` in both the `backend` and `frontend` directories using `npm`. However, for documentation purposes, here is the consolidated list of core requirements matching the Python `requirements.txt` style.
+
+## Backend Requirements (Node.js Express)
+express==5.2.1
+mongoose==9.3.3
+bcryptjs==3.0.3
+jsonwebtoken==9.0.3
+cors==2.8.6
+dotenv==17.3.1
+multer==2.1.1
+pdfkit==0.18.0
+socket.io==4.8.3
+
+## Frontend Requirements (React + Vite)
+react==18.3.1
+react-dom==18.3.1
+react-router-dom==7.1.1
+axios==1.7.9
+lucide-react==0.471.0
+recharts==2.15.0
+jspdf==2.5.2
+jspdf-autotable==3.8.4
+tailwindcss==3.4.17
+
+*Note: To install all dependencies locally, navigate to `backend/` and `frontend/` directories and run `npm install`. To run the application in production format, please use the provided Dockerfile.*
